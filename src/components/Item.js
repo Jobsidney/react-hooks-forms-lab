@@ -5,6 +5,7 @@ function Item({ name, category }) {
 
   function handleAddToCartClick() {
     setIsInCart((isInCart) => !isInCart);
+ 
   }
 
   return (
